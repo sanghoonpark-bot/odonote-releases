@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>오도노트 개인정보처리방침</title>
+<style>
+  :root { color-scheme: light dark; --ink: #1c1c1e; --muted: #6e6e73; --bg: #ffffff; --line: #e5e5ea; }
+  @media (prefers-color-scheme: dark) { :root { --ink: #f2f2f7; --muted: #a1a1a6; --bg: #000000; --line: #2c2c2e; } }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.7 -apple-system, system-ui, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 26px; margin: 0 0 4px; }
+  h2 { font-size: 18px; margin: 32px 0 8px; padding-top: 16px; border-top: 1px solid var(--line); }
+  .muted { color: var(--muted); font-size: 14px; }
+  table { width: 100%; border-collapse: collapse; font-size: 15px; }
+  th, td { text-align: left; vertical-align: top; padding: 8px 6px; border-bottom: 1px solid var(--line); }
+  a { color: #0a84ff; }
+</style>
+</head>
+<body>
+<main>
+<h1>오도노트(ODONOTE) 개인정보처리방침</h1>
+<p class="muted">시행일: 2026년 11월 20일 (개정: 앱 이름 변경, 차량·정비·지출 기록 추가)</p>
+
+<p>오도노트(ODONOTE, 이하 "앱", 이전 이름: 모토로그)는 오토바이·자동차의 주행, 주유, 정비, 지출을 기록하는 앱입니다. 앱은 회원가입이 없고, 개발자가 운영하는 서버가 없습니다. 모든 기록은 이용자의 휴대폰 안에만 저장됩니다.</p>
+
+<h2>1. 휴대폰 안에서만 쓰는 정보</h2>
+<table>
+  <tr><th>정보</th><th>쓰는 곳</th><th>저장 위치</th></tr>
+  <tr><td>위치 정보(GPS 위치, 속도, 방향)</td><td>주행 경로, 거리, 속도, 기울기 계산과 지도 표시</td><td>휴대폰 안에만 저장. 개발자에게 전송하지 않음</td></tr>
+  <tr><td>이용자가 고른 사진</td><td>사진에 주행 기록을 얹은 이미지 만들기</td><td>휴대폰 안에서만 처리. 이용자가 공유하거나 저장할 때만 밖으로 나감</td></tr>
+  <tr><td>주유 기록(금액, 리터, 주유소, 날짜)</td><td>주유비 기록</td><td>휴대폰 안에만 저장</td></tr>
+  <tr><td>카드 결제 알림 내용 (이용자가 켰을 때만)</td><td>주유소 결제를 찾아 주유 기록으로 저장</td><td>휴대폰 안에서만 처리. 주유소 결제로 보이는 알림만 앱이 읽을 때까지 잠시 보관하고, 그 밖의 알림은 저장하지 않음</td></tr>
+  <tr><td>차량 정보(이름, 종류, 주행거리), 정비 기록, 지출 기록</td><td>차량별 정비 시기와 가계부</td><td>휴대폰 안에만 저장</td></tr>
+  <tr><td>앱 설정, 주행 이름, 언어</td><td>앱 기능</td><td>휴대폰 안에만 저장</td></tr>
+</table>
+<p><b>카드 결제 알림 자동 기록</b>은 기본으로 꺼져 있습니다. 이용자가 설정에서 켜고 휴대폰 설정에서 "알림 접근"을 허용한 경우에만 동작하며, 설정에서 언제든 끌 수 있습니다. 알림 내용은 개발자나 외부로 보내지 않습니다.</p>
+<p><b>백업 파일</b>은 이용자가 직접 저장하거나 보낼 때만 만들어지며, 어디로 보낼지는 이용자가 고릅니다.</p>
+<p>위치 정보는 이용자가 주행 기록을 시작했을 때만 사용하며, 주행 중에는 화면이 꺼져 있어도 기록되도록 알림을 띄운 상태로 위치를 받습니다.</p>
+
+<h2>2. 외부 서비스로 전달되는 정보</h2>
+<table>
+  <tr><th>서비스</th><th>전달되는 정보</th><th>목적</th></tr>
+  <tr><td>카카오맵 (주식회사 카카오)</td><td>지도에 보이는 지역의 좌표, 기기 및 접속 정보(IP 주소 등)</td><td>지도 이미지 표시</td></tr>
+  <tr><td>OpenStreetMap (카카오맵을 쓸 수 없을 때)</td><td>지도에 보이는 지역의 좌표, 접속 정보(IP 주소 등)</td><td>지도 이미지 표시</td></tr>
+  <tr><td>Google AdMob (Google LLC)</td><td>광고 ID, 기기 정보, IP 주소(대략적인 위치), 광고 반응 정보</td><td>광고 표시, 광고 성과 측정, 부정 사용 방지</td></tr>
+  <tr><td>GitHub (GitHub, Inc.)</td><td>접속 정보(IP 주소 등)</td><td>앱 업데이트 확인과 내려받기</td></tr>
+</table>
+<p>각 서비스의 정보 처리는 해당 회사의 방침을 따릅니다: <a href="https://policy.kakao.com/kr/privacy">카카오 개인정보처리방침</a>, <a href="https://policies.google.com/privacy">Google 개인정보처리방침</a>, <a href="https://osmfoundation.org/wiki/Privacy_Policy">OpenStreetMap 개인정보처리방침</a>, <a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement">GitHub 개인정보처리방침</a>.</p>
+<p>광고 맞춤 설정은 휴대폰의 <b>설정 → Google → 모든 서비스 → 광고</b>에서 광고 ID를 삭제하거나 재설정해 끌 수 있습니다.</p>
+
+<h2>3. 보관 기간과 삭제</h2>
+<p>주행·주유 기록은 이용자가 지울 때까지 휴대폰에 보관됩니다. 앱의 <b>기록 → 편집</b>에서 원하는 기록이나 전체 기록을 지울 수 있고, 앱을 삭제하면 모든 기록이 함께 지워집니다. 개발자는 이용자의 기록을 갖고 있지 않으므로 대신 지우거나 복구해 드릴 수 없습니다.</p>
+
+<h2>4. 권한</h2>
+<ul>
+  <li><b>위치(정확한 위치)</b>: 주행 경로 기록과 지도 표시</li>
+  <li><b>알림</b>: 주행 기록 중임을 알리는 알림 표시</li>
+  <li><b>포그라운드 서비스</b>: 화면이 꺼져도 주행 기록을 이어가기 위함</li>
+  <li><b>인터넷</b>: 지도, 광고, 업데이트 확인</li>
+  <li><b>알림 접근 (선택)</b>: 카드 결제 알림으로 주유를 자동 기록할 때만</li>
+</ul>
+<p>권한은 휴대폰 설정에서 언제든지 끌 수 있으며, 위치 권한을 끄면 주행 기록을 할 수 없습니다.</p>
+
+<h2>5. 아동</h2>
+<p>앱은 만 14세 미만 아동을 대상으로 하지 않습니다.</p>
+
+<h2>6. 문의</h2>
+<p>개인정보 관련 문의: <a href="mailto:ssrlx2@gmail.com">ssrlx2@gmail.com</a></p>
+
+<h2>7. 변경</h2>
+<p>이 방침이 바뀌면 이 페이지에 바뀐 내용과 시행일을 알립니다.</p>
+</main>
+</body>
+</html>
